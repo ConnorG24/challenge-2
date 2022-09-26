@@ -1,0 +1,141 @@
+:root {
+    --dark: darkred; 
+    --light: rgba(219, 218, 218, 0.274); 
+    --autoLeft: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  /* controlls entire page */
+body {
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    min-height: 100vh;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+/* header settings */
+header {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 1%;
+    font-size: large;
+}
+header h1 {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+header nav {
+    float: right;
+    display: block; 
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    padding: 5px;
+   
+    
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+header nav a {
+    color:black;
+}
+
+nav a:hover{
+    color:aquamarine;
+}
+
+  
+/* controlls the tites for the main */
+main h2 {
+    font-size: 40px;
+    margin-left:var(--autoLeft) ;
+}
+/* text for about me */
+main p {
+    font-size: 30px;
+    padding: 2px;
+    margin-left:var(--autoLeft) ;
+
+}
+/* correctly sizes the image for my work */
+main img {
+    max-width: 100%;
+    height: auto;
+}
+/* controlls the style around the image */
+.card {
+  border-style: solid;
+  max-width: 20%;
+  margin-left: 10%;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  flex-wrap: wrap;
+  background-color: var(--dark);
+  text-decoration:solid
+}
+
+.card:hover{
+    background-color: aquamarine;
+    max-width: 30%;
+}
+/* footer settings */
+footer {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 1%;
+    font-size: large;
+    margin-top: auto;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    
+    
+}
+/* settings for Contact */
+footer h2 {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+/* settings for contact links */
+footer div {
+    float:right;
+    
+    margin-right: 760px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+   
+    
+}
+/* correctd display for links */
+footer div ul li {
+    display: inline-block;
+    margin-left: 60px;
+    
+}
+footer div a {
+    color:black;
+}
+footer div a:hover{
+    color:aquamarine;
+}
